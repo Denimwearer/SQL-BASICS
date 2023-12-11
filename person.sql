@@ -40,3 +40,12 @@ WHERE favorite_color NOT IN ('red', 'blue');
 SELECT *
 FROM person
 WHERE favorite_color IN ('orange', 'green');
+
+SELECT *
+FROM person
+WHERE favorite_color IN ('orange', 'green', 'blue');
+
+SELECT *
+FROM person
+WHERE favorite_color IN ('yellow', 'purple');
+
